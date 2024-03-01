@@ -1,0 +1,408 @@
+What is new in WYSIWYG Web Builder 19?
+The latest and greatest upgrade yet, packed with an impressive array of new features and powerful tools to help you craft stunning websites. 
+This release boasts over 125 enhancements and additions that will elevate your web design experience to new heights!
+
+Artificial Intelligence
+- New feature: Improve your online presence easily with the help of WYSIWYG Web Builder's AI-powered tools. Make your website content better, reach a global audience by translating it, create eye-catching visuals to impress your visitors, and generate custom code for your web projects with ease. WYSIWYG Web Builder AI combines all these important features in one place, giving you a complete platform to take your web design projects to new levels.
+
+Text Generation and Enhancement: Create text, headings, articles, and more by entering custom prompts or choosing predefined ones. You have the flexibility to modify text length, tone (casual, professional, confident, friendly), grammar, and overall style to suit your needs. Prompts can be modified via the Prompt Manager.
+
+Multilingual Translation: Translate text into over 25 languages, such as English, Spanish, French, German, and Italian, making it a valuable resource for communication across language barriers.
+
+Image Generation and Manipulation: Generate new images based on text input, create variations of existing images, and enhance images using in-painting techniques. You can specify desired changes, such as adding objects, replacing screen content, or altering hairstyles. Anything of which you can think!
+
+Image Expansion: Expand images beyond their original borders by providing descriptions of the desired changes. Also known as out-painting. The zoom slider allows you to adjust the frame size according to your preferences.
+
+Custom Code Writing: For web development and coding tasks, you can utilize AI functionality within HTML objects, Object HTML, and Page HTML. This includes adding scripts, HTML, CSS, PHP, and more, making it a useful tool for developers.
+
+Translate Text
+- New feature: This is part of the new AI tools, but also available as separate tool. Translate selected objects or create a translated copy of the whole page!
+
+Remove background with AI
+- New feature: Added AI powered background removal functionality for images.
+This feature automatically detects a person or object in an image and replaces the background with a transparent one. Unlike traditional background removal methods, this tool works 100% automatically. You don't have to manually select the background/foreground layers to separate them - just click 'Remove Background' and it instantly generate a new image with the background removed!
+
+Website Wizard
+- New feature: Added 'Website Wizard' to quickly create a new project. Select style, the pages you want to include and even (optionally) generate content with AI! 
+
+Badges
+- New feature: Added 'Badge' object. A "badge" is a small graphic, text or symbol that can be used to add additional information to the web site elements. For example, showing if a product is available, promoting a discount, displaying a user's achievements, or indicating how popular a product is. A Badge can be applied to almost any WWB object.
+The Badge object has 8 different types: Arrow, Bookmark, Bootstrap-like badge, Flag, Stripe, Triangle, Ribbon and Shape (with more than 200 shape types). Badges can include both text and icons, and they can also incorporate animations to capture the visitor's attention.
+
+Theme Manager
+- New feature: Theme Manager has been 'resurrected'. WWB has supported themes for a long time, however previously they were only useful for jQuery UI widgets.
+The Theme Manager has been updated to support almost all objects. Unlike jQuery UI widgets which require a pretty large CSS set. The new themes only have a small footprint.
+- New feature: Added 25 new themes inspired by Boot Swatch. Each of the new themes also has a dark theme variation, which allows the visitors of the website to choose between a light and dark theme. Just like you can with styles.
+- New feature: Added 'Invert colors' button to invert all colors of the current theme. This may be useful if you want to quickly create a dark variant of the theme.
+- New feature: Added Theme gallery to page menu.
+- Improved: Added dark variants of the following themes: blitzer, cupertino, eggplant, excite-bike, flick, hot-sneaks, humanity, overcast, pepper-grinder, redmond, smoothness, south-street, start, sunny, ui-lightness, vader.
+- Improved: Theme Manager dialogs are now resizable.
+- Improved: Double clicking the theme name will open the properties for that theme.
+- Improved: Property list now also uses 'Office look' (when enabled in UI options).
+- Improved: Theme selector now also includes the name (in addition to the preview image) and the themes are sorted by name.
+
+Card 
+- New feature: Added support for Affix to keep the card visible while scrolling.
+- New feature: Added ecommerce functionality to cards. Via the new 'ecommerce' item you can add checkboxes, radio buttons, select /dropdown lists, price and quantity fields to the card. These items can then be used to adjust the price. For example, the size of a t-shirt, gift wrapping, glossy printing paper etc.
+Extra options can increase or decrease the final price. Calculations are done automatically so there is no need to implement events or conditions!
+Available options: checkbox, radio buttons, select / dropdown, price field, quantity field
+- New feature: Added support for shapes in Cards.
+- New feature: Added ‘Minimum height’ property for Text items. When working with text in cards, variations in text length often result in varying text heights, creating challenges when aligning other elements within the card, such as buttons placed at the bottom. To address this, you can now set a minimum height, ensuring consistent and predictable text heights for improved alignment.
+- New feature: Added the ability assign a link to Card text items.
+- New feature: Added support for events to Card text items.
+- Improved: Define the 'minimum height' directly within the card's properties, eliminating the need to configure it through the flex properties as was required before.
+This specifies the minimum height for the card when it is utilized within layout grids. This feature may be useful to ensure consistent card heights across multiple cards with varying content.
+
+Section
+- New feature: Added the ability to add links to text and shapes.
+- New feature: Added ecommerce functionality (see card for more details).
+
+Card Repeater
+- New feature: Added 'Card Repeater' object. A Card Repeater operates similarly to a Card Container, with a key distinction: all cards within it share the same layout and style. This means that any modification made to one card will automatically propagate to all other cards within the same container. Of course, the text can be different for each card!
+
+Card Container
+- New feature: Cards that are inside a Card container now have a 'clone' button. So, you can easily duplicate the selected card.
+- New feature: Added support for HTML5 semantic tags.
+
+Google Fonts
+- New feature: Added support for Variable fonts.
+A variable font contains multiple variations of a typeface (such as weight, width, and slant) within a single file. This enables you to create a wide range of typographic styles and effects using just one font file, resulting in improved performance and more creative possibilities.
+Variable fonts can have multiple axes of variation, which represent different attributes of the typeface. These axes can include weight (thin to bold), width (condensed to expanded), slant (italic to upright) and more. Each axis allows for a smooth transition between the extreme variations, giving you granular control over the visual appearance of text.
+
+Notes: if you previously used Google Fonts and want to use the variable font version, then you will need to re-install the font via the font manager.
+Not all Google Fonts support variations. In the Font Manager you can select to display variable fonts only. It is also possible to search for specific 'axes'. For example, if you type 'weight' or 'slant' in the search field then only fonts that support this functionality will be displayed.
+
+Spellings Checker
+- New feature: All input fields for text now have the ability to check the spelling via the context menu. 
+
+Timer
+- New feature: Introducing the new 'Visits' type option. This feature enables you to trigger a timer after a specified number of visits, making it perfect for showcasing introductory dialogs or special offers to new visitors. By default, the timer activates only once, but you also have the option to use a negative number. In this scenario, the count resets after every 'X' visits, allowing for repeated activations as needed.
+- New feature: Introducing the new 'Days' type option. You can now set up timers to activate after a specified number of days following the user's initial visit. By default, the timer activates only once, but you also have the option to use a negative number, which will restart the timer at regular intervals of 'x' days.
+- New feature: Added 'Date Range' option. This feature allows you to activate a timer within a specific date range, making it perfect for showcasing special offers or managing your store's operations during holidays and other designated periods.
+- New feature: Added 'Time Range' option. This feature enables you to set up timers for specific time ranges, making it perfect for delivering personalized welcome messages such as "Good morning" or "Good afternoon" at the right times of day.
+Note: The state of these new features will be stored in local storage. If you want to reset the state while testing the website, you can access this via the browser's debugger console (Application -> Local Storage). 
+
+FTP Manager
+- New feature: The FTP Manager has been redesigned. It now features a local and remote view, so you can easily copy files (and folders) between the server and your local drives, including drag & drop support. The local folder will be remembered for each publish profile.
+- New feature: Both views use shell icons, instead of the generic icons like in previous versions.
+- New feature: Added the ability to delete a folder and all its contents. Normally, it is not possible with FTP to delete a remote folder when it's not empty. But if you hold the SHIFT key while clicking the 'Delete' button then the FTP manager will recursively remove all files in the folder first.
+- New feature: It is now also possible to upload and download entire folders (including sub folders).
+
+Flex Grid
+- New feature: Added 'Visual grid editor'. The visual flex grid editor provides a user-friendly interface for effortlessly arranging grid items in specific row or column structures.
+You can easily add rows and columns using the '+' and '-' buttons located at the right and bottom of the grid, respectively.
+When you hover over an item, controls appear, allowing you to manage its appearance within the grid.
+Adding new grid items is as simple as clicking the '+' button, while existing items can be resized using arrow buttons.
+Furthermore, removing an item is quick and convenient with the 'Delete' button.
+- Improved: Added background, border and shadow properties to the Proeprty Inspector for quick access.
+
+Panel Layer
+- New feature: Added 'fixed' display mode to Panel Layer. In fixed mode, the panel layer will always be visible. 
+
+Sticky Layer
+- New feature: Added 'z-index' property to Sticky Layer. This makes it possible to overwrite the automatically generated z-index. For example, if you want to show the sticky layer to be on top of everything else. Leave the field empty for the default behavior.
+
+Borders
+- New feature: Added 'Gradient' and 'Multi-color gradient' border styles. This make it possible to apply a gradient to an object’s border. 
+Note: at this moment most browsers do not support a border radius in combination with gradient borders.
+- New feature: Added support 'Image' and 'Custom' border styles to Slide Show, Blog, Article, News Feed Ticker, Bullets, Carousel, Auto Complete, Site Search ....
+
+Form:
+- New feature: Added Honeypot Anti-Spam option. 
+The anti-spam honeypot is a hidden form field that bots can’t avoid filling, but it’s invisible to human users. If the hidden field is filled in, it’s a sign of spambot activity and can be blocked. If the field is not filled in, it indicates that the form was filled by a human user as intended. The name of the Honeypot Anti-Spam field name can be set in Form Properties -> Advanced -> Miscellaneous.
+Make sure the field name is not the same as one of your existing input fields.
+We've also created a new 'anti-spam' tutorial that provides an overview of the anti-spam features available in WYSIWYG Web Builder: https://www.wysiwygwebbuilder.com/forms_antispam.html
+- New feature: Added new site variable to set the honeypot error message: $FORMERROR_HONEYPOT$. Default value is Spam detected.
+- New feature: Added "Include timestamp in form data" option. This specifies whether to include the time stamp in the form data. Previously this was always included and could not be turned off.
+- New feature: Added "Include browser information in form data" option. This specifies whether to include the browser information in the form data. Previously this was always included and could not be turned off.
+- Improved: The Mail Engine settings have been streamlined . The previously existing 'use PHP Mailer' option has been eliminated. Instead, you'll find a single dropdown menu. When you select 'default,' it will utilize PHP's built-in mail() function. Alternatively, you can choose the PHP Mailer option for other settings.
+
+Form Wizard
+- New feature: Form Wizard has undergone a makeover with the 'Aero' style. This not only gives the wizard a contemporary appearance but also allows for resizable windows, enhancing user experience.
+
+File Upload
+- New feature: Added 'Bootstrap' type. This will render the file input using Bootstrap styling (CSS only). Unlike the jQuery UI version which requires JavaScript.
+
+Spinner
+- New feature: Added 'Bootstrap Simplified' mode. This will render a simplified spinner without visible button borders, a frequently used component in eCommerce website design.
+- New feature: Added 'Border width’ property. To control the size of the spinner’s border. Previously this was fixed to 1.
+
+Accordion
+- New feature: Added the ability to configure the arrow size.
+
+Tab
+- New feature: Added 'Bulma Tabs' type. This renders a minimalistic version of the tab control featuring simple text and subtle underlines, drawing inspiration from the tabs found in the Bulma CSS framework.
+
+Login Tools
+- New feature: Added 'Synchronize MySQL settings between login objects' option (Tools->Options->General). When this option is enabled, any updates made to MySQL properties will automatically apply to all login objects. Additionally, new login objects created in the project will inherit the same settings as existing objects. This eliminates the need to configure each object individually, streamlining the process and ensuring consistent settings across all login objects.
+
+Login Info
+- Improved: 'Login Name' object has been renamed to 'Login info' to better reflect its purpose.
+- Improved: Login Info now has all the generic background and border styling options, like gradients, patterns, background images, border styles etc.
+- New feature: Added 'Newest member' option. This displays the newest member from the USERS table.
+- New feature: Added 'Total members' option. This displays the total number of members in the USERS table.
+
+Login Signup
+- Improved: The signup form will automatically refill the (text) input fields in the event of an error.
+
+Icons
+- New feature: Added built-in support for Font Awesome 6. Font Awesome 6 has a modern look and includes 600 new icons. New projects will automatically use the new version. For older projects, you can select the new version in the Tools -> Options -> Fonts
+- Improved: WWB19 now Includes the latest version of the ‘Material Icons’ library with 390 new icons! 
+- Improved: It is no longer necessary to restart the application after changing the default icon library. The Ribbon icon gallery will now be updated instantly.
+
+PayPal Buttons
+- New feature: Added 'JavaScript SDK' option as alternative for the Legacy Payment Button. This can be set via the 'PayPal API' property. 
+Notes: PayPal's JavaScript SDK does not provide 'Add to cart' and 'View Cart' functionality. it only supports 'Buy Now'. Alternatively, you can use the PayPal Shopping Cart object which has also been updated to support the JavaScript SDK.
+Also, the subscription button needs to be setup in the PayPal account. 
+
+When using the 'JavaScript SDK', you will need to use the 'Client ID' instead of the PayPal email address! This can be set globally in Tools -> Options -> eCommerce.
+
+PayPal Shopping Cart
+- New feature: Added 'Checkout API' property. This specifies whether to use the Legacy Payment Button or JavaScript SDK for checkout.
+- New feature: Added the ability to set a custom icon for the ‘Remove’ button. This can be any icon from the selected Icon Library.
+- New feature: Added the ability to set the border width and color of the shopping cart popup.
+- Improved: All style properties are now in a separate ‘Style’ tab.
+
+SEO
+- New feature: Added 'Get keywords from page content with AI' in the page properties meta tags section. This uses artificial intelligence to determine the best keywords for the page based on the page content (text and headings).
+- New feature: Added 'Get description from page content with AI' in the page properties meta tags section. This uses artificial intelligence to write a description about the page content (text and headings).
+
+Templates
+- New feature: Added 'Online Gallery' to 'select template' dialog. This allows you to select a template from the online gallery without the need to manually install it first! You can also preview the template online directly via the context menu.
+- New feature: Added more than 20 fresh templates, designed to ignite your creativity and showcase some of the new features in action.
+
+Events
+- New feature: Added "Print Document' and 'Print Element' actions. 
+Print Document prints the contents of the current window.
+Print Element prints the contents of the specified object.
+- New feature: Added the ability to select a target (ID) for the JavaScript action. This makes it possible to use the selected ID in the code. For example: alert('$ID$') will result in alert('wb_Heading1'). This means that you no longer have to use a hardcoded ID. If you change the ID of the object in the project, then the code will automatically be updated.
+- New feature: Added ‘ondocumentready’ to object events. Previously, the 'ondocumentready' event was only accessible through Page events. But there may be situations where you prefer to associate the event directly with an object. This approach can facilitate actions such as seamless copying and pasting of objects with associated events across different pages, or preserving the object as an integral part of a block, which does not include page events. 
+
+Style Manager
+- New feature: Added 'Font Variation’ properties. These properties are available for variable fonts only. Additionally, refer to the earlier section in this document for more information on variable fonts.
+- New feature: Added support border gradients.
+- New feature: Added 'Dark Color Scheme Preview' option. Use this option to toggle between standard (light) and dark colors of the style for the preview.
+- New feature: Added live preview for styles. In previous versions, the preview was static and limited to specific styles only. The live preview renders the style like in the browser. For example, you can now also preview cursors, animations, filters, text-outline, etc.
+
+Transitions / Animations
+- New feature: Added 'font-variation-settings' property. This adds the ability to animate properties of variable fonts, like weight, width, slant etc. Example: 'wight' 100
+- New feature: Added 'font-stretch' property to animate the compactness of the characters in a font. This property may be specified as a single keyword value (semi-condensed, condensed, extra-condensed, ultra-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded) or a percentage value. 
+Note: this only works with fonts that support this property (variable fonts).
+- New feature: Added 'backdrop-filter property. This lets you apply graphical effects such as blurring or color shifting to the area behind an element. 
+Note: Because it applies to everything behind the element, to see the effect you must make the element or its background at least partially transparent.
+
+Text Art
+- New feature: Added 'Line spacing' property. This feature allows you to precisely control the vertical spacing between lines.
+- New feature: Added 'Letter spacing' property. This feature allows you to precisely control the horizontal spacing between characters.
+
+Image
+- New feature: AV Vision. This is an experimental feature and currently only available for users who have an OpenAI account with access gtp4.
+AI Vision can recognize what's in an image and lets you ask questions like, "What's in this image?", "Identify all the food items in the image." or "Write a caption for this image for use on a website". But you can also use it to extract text or translate the text from the image to a different language.
+This feature can be useful for web design to create titles or detailed descriptions for SEO purposes. But you can also use it to create a text prompt from an image and use that to create a new image. The results of this tool are already very impressive, and we can’t wait to come up with more features that use this functionality...
+- New feature: Added 'Replace image' command to replace an existing image with a new one without losing the current settings.
+- New feature: Added quick menu icon to the selected image. This can be used to open a quick menu with image tools.
+- Improved: Added 'Stock Photo' command to image tools to quickly change the current image with a stock photo.
+
+Slideshow
+- New feature: Added support for 'Swiper'. Swiper is a modern mobile friendly (slider) slider with hardware accelerated transitions (no jQuery): fade, slide, cube, coverflow, flip, cards and creative. 
+- New feature: Added 'Thumbnail Gallery' option: A lightweight, responsive image slider accompanied by carousel-style thumbnail navigation. This feature is particularly valuable as an 'eCommerce gallery,' enabling you to elegantly display various product images for showcasing your merchandise. But of course it can also be used to display any images you like.
+- New feature: Added support for ‘Spotlight’ lightbox. Spotlight (https://github.com/nextapps-de/spotlight) is modern, lightweight image gallery with great performance and no dependencies (no jQuery or other libraries).
+- New feature: Added support for ‘Litebox’ lightbox. Litebox (https://andreasremdt.github.io/litebox/index.html) is a simple lightweight lightbox to showcase your images with no dependencies (no jQuery or other libraries).
+- New feature: Added quick menu icon to quickly replace the images in the slideshow.
+
+Photo Gallery
+- New feature: Added support for ‘Spotlight’ and ‘litebox’ lightboxes. See also ‘slideshow’ notes.
+- New feature: Added quick menu icon to quickly replace the images in the gallery.
+
+Rollover Image
+- New feature: Added quick menu icon to quickly replace the rollover images. It is possible to select two images at once.
+- Improved: When dropping the rollover image to the page, you can now select both images (initial and hover) at the same time. So, it's no longer necessary to open the properties to select the second image.
+
+User Interface
+- New feature: Text alignment options in Property Inspector are now rendered as toggle buttons instead of a dropdown list for quicker access.
+- New feature: Added 'Change lightbox type in page properties' to link properties. This enhancement offers a swift and straightforward method for modifying the lightbox type. It not only streamlines the process but also ensures that new users are aware of their capability to customize the lightbox according to their preferences, which is frequently overlooked.
+- New feature: Added 'texture' option in Property Grid for Page Properties.
+- New feature: All rotatable objects now have an 'Angle' property in the Property Inspector.
+- New feature: Automatically select all text when entering edit mode. This will highlight all text in the  object when you double click it to go into edit mode, instead of moving the cursor to the end of the text.
+- Improved: Added 'Project' section in the Home section of the ribbon for quick access to New, Open, Save (as) commands. It also includes a shortcut to the website wizard.
+- Improved: Image Hotspots, Slide Show, Listview child dialogs are now resizable.
+- Improved: System file dialogs (Open, Save As) and Messages Boxes (Are you sure you want to quit, etc) are now also themed, like the rest of the user interface. 
+
+Content Management System
+- New feature: Added support for 'SunEditor'. SunEditor is a lightweight, flexible, customizable WYSIWYG text editor with many features like pasting from Microsoft Word/Excel, advanced tables, media embed, images upload and much more: https://github.com/JiHong88/SunEditor
+- New feature: The software now has the capability to automatically install any missing CMS editors, eliminating the need for manual file copying on your part.
+
+Rich Text Area
+- New feature: Added 'Rich Text Area' object. This adds the ability to add third party WYSIWYG text editors to a website. 
+Rich Text Area supports the same editor as the CMS tools: summernote, sunedit, sceditor, trumbowyg etc.
+
+Heading
+- New feature: Added the ability to output the heading as paragraph <p>. This can be useful if you want to use specific heading features that are not available for standard text like 'text shadow', 'text stroke' or variable fonts.
+
+Content Place Holder
+- Improved: Content Place Holder now has all the generic background and border styling options, like gradients, patterns, background images, border styles etc.
+
+Slide Menu
+- Improved: Script has been converted to vanilla JavaScript (no longer uses jQuery) and moved to wb.slidemenu.min.js, to minimize duplicated code.
+- Improved: 'Enable uppercase folder names' has been replaced with 'text-transform'. It now also supports lowercase and capitalize.
+- New feature: Added transition duration and easing properties.
+
+Drop Down Menu
+- New feature: Added 'overflow' mode. There are times when the drop down has many menu items, and they begin to wrap (undesirable) as the page width decreases. Using overflow mode, you can automatically collapse the extra menu items into a dropdown menu on the right. When the viewport is wide enough, the menu items return to the horizontal menu. When there are no overflowing items, the dropdown menu is hidden.
+Overflow menus are represented by a 'kebab' button, as the user clicks on the kebab, a horizontal list will appear with additional options to click.
+A kebab menu is also known as the three dots menu, and the three vertical dots menu, is an icon used to open a menu with additional options.
+
+Navigation
+- New feature: Added 'synchronize with bookmarks'. This feature can dynamically update the menu based on bookmarks on the same page. This can be useful for 'single page' websites where menu items link to sections on the page. The menu text can be set via the new 'menu name' property available for all objects that can be used as bookmark: Bookmark, Layer, Layout Grid, Flex Grid, Flex Container and Heading.
+- New feature: Added 'text-transform' properties (uppercase, lowercase, capitalize). This feature allows you to easily control the capitalization of text. This can be useful when managing menu items, as it enables swift changes in casing without the need to manually. 
+update each item. Moreover, when employing synchronization with the site manager, the text can automatically be made uppercase, lowercase or capitalize, streamlining the process further. This option is available in Breadcrumb, CSS Menu, Dropdown Menu, Go Menu, Layer Menu, Mega Menu, Menu bar, Navigation Bar, Overlay Menu, Panel Menu, Pagination, Responsive Menu, Tab Menu, Text Menu
+
+Site Manager
+- New feature (experimental): It is now possible to specify an (optional) icon in the menu name property of page properties. This icon will be used when 'Synchronize with Site Manager' is enabled in navigation objects. 
+For example: Home^home or About^user, where the text after the caret symbol is the name of the icon. Note: the icon should be a valid name in the selected icon library!
+This is an experimental feature. It was designed for the site wizard so it can add icons to navigation automatically. But it may also be useful for other purposes...
+- New feature: When you clone a page where the page name ends with a number, the cloned page will have the same name but with the next higher number. For instance, if you change 'product1' it will turn into 'product2'.
+- Improved: When removing a page via the Site Manager, the previous item in the tree will be selected and the focus will return to the Site Manager. 
+
+Breadcrumb
+- Improved: All style properties are now also accessible via the Property Inspector.
+
+Pagination
+- Improved: All style properties are now also accessible via the Property Inspector.
+
+Site Tree / Table of Contents
+- Improved: All style properties are now also accessible via the Property Inspector.
+
+Mega Menu
+- New feature: Added sub menu 'hover style' properties. These can be used to set the style of sub menu items on hover.
+- New feature: Added the ability to set a different font size for the column headings.
+- New feature: Added 'border radius' to button and sub menu properties.
+- New feature: Added transition duration and easing properties.
+- Improved: The layout of the Mega Menu is now implemented using CSS grid. This enhancement significantly streamlines the resulting HTML code.
+- Improved: Scripts have been rewritten in vanilla JavaScript (no jQuery)
+
+Responsive Menu
+- New feature: Added ‘Icon Offset’ property. This specifies the spacing between the icon and the text.
+- New feature: When the menu only has one item and the alignment is set to ‘center’, then the menu will behave as a single button. A use case for this feature could involve designing a vertical menu where the icon appears above the text. This distinctive layout is presently unachievable with any of the other navigation tools.
+- Improved: Script has been converted to vanilla JavaScript (no longer uses jQuery).
+
+Overlay Menu
+- New feature: Added 'Popup position' property. When the overlay menu is in ‘popup mode’, this specifies the alignment of the popup menu.
+- New feature: Added 'hamburger icon’ animations. When the hamburger icon is clicked, the bars will animation into a close symbol. There are 13 animation types.
+- New feature: Added the ability to hide the standard ‘close’ button of the fullscreen overlay menu. This may be useful when using a ‘sticky’ hamburger icon. In which case, the same button can be used to show/hide the overlay menu.
+- New feature: It is now possible to open the Overlay menu via the 'Show'event. For example, to trigger the menu via an icon, button, image or any other element that supports events.
+
+Panel Menu
+- New feature: Added ‘multiply’ animation. This animates the hamburger icon into a ‘close’ icon.
+
+Gradients
+- Improved: CSS output is now supported for all built-in gradients, eliminating the need for image fallbacks in the following styles: Linear from Center, Linear to Center, From Corner (down/right), From Corner (down/left), From Corner (up/right), From Corner (up/left). This results in cleaner and more efficient HTML output, enhancing performance.
+- Improved: The improved gradient styles were also added to all objects that previously did not support them: CSS menu, layer menu, mega menu, overlay menu, panel menu, slide menu, tab menu and styles. 
+
+Asset Manager
+- New feature: Added the ability to rename files via the Asset Manager. 
+In the past, updating a file's name required a two-step process: manually renaming the file on the disk and then replacing it within the project.
+Now, you can effortlessly rename files directly from the Asset Manager. This action not only changes the file's name on the disk but also automatically updates all references within the project.
+If the file is used by multiple objects or pages, then it will be automatically updated for all instances!
+
+Favorite Icon
+- New feature: Added the ability to use SVG files in the icons section of the Page Properties. Recently browsers have allowed use of SVG, a vector format. SVG is able to scale up and down without quality loss, and can potentially be very small in size, they can also have embedded CSS, even embedded media queries. For example, to support light and dark themes.
+
+Ready to use JavaScripts
+- New feature: Added the ability to add a preview image. This will be displayed in the workspace as a place holder, instead of the text-based place holder.
+- New feature: Added ‘Google Maps Embed’ script. This makes it possible to embed Google Maps without the need for an API key.
+
+jQuery UI Widgets
+- New feature: Added properties for background repeat, background alignment and background size.
+
+Affix
+- Improved: The Affix script (previously part of Bootstrap), has been updated so it no longer uses jQuery. Also, the script is now initialized via data attributes instead of JavaScript.
+
+Blocks
+- Improved: 'Save as block' will remember the last selected category.
+
+Help
+- Improved: Added new help sections for Synchronize Navigation, Artificial Intelligence, Badges, Card Repeater and other new features.
+- Improved: Normalized font-size to 10pt. Previously the help had a mix of several different font sizes.
+
+Other
+- Renamed 'Theme colors' option to 'Swatch colors' to prevent confusion with Themes. Swatch colors control the color palette of the color picker tool.
+- Removed support for PHP4 because most built-in features require a newer version anyway. The minimum supported version is now 5.6.
+
+11/29/2023 - Version 19.0.1
+- Fixed: Crash when publishing shapes with text.
+- Fixed: FontAwesome file not published when used in master frames.
+- Fixed: Issue with padding in Responsive Menu.
+- Fixed: Conflict between quick menu click and scroll timer.
+- Fixed: Issue with locally hosted Google Fonts.
+- Fixed: Issue with position of Badges in breakpoints.
+- Fixed: Honeypot field is not hidden in Layout Grids.
+- Fixed: Issue with inset box shadow.
+- Fixed: Issue with Cards in flex container.
+- Fixed: Issue with text alignment in SlideMenu.
+- Fixed: 'Open' command in File menu not working.
+- Improved: Added disclaimer popup for AI functionality.
+- Improved: A 'too many extensions' popup will now be displayed if the number of installed extensions exceeds 300. In previous versions, the software would fail silently when the number of extensions surpassed 300.
+- Improved: Accordion font size is now responsive.
+- Improved: Translate options now show a warning when the API key is not set. 
+
+12/07/2023 - Version 19.0.2
+- Fixed: OpenGraph image is marked as orphan file in Asset Manager -> Filter -> Orphan files 
+- Fixed: Issue with Image Export file extension.
+- Fixed: Issues with Google Fonts with 'condensed' and 'expanded' in the name.
+- Improved: Error Reports now ignores extra data in filenames for extensions.
+
+12/15/2023 - Version 19.0.3
+- Fixed: Resolved an issue where affix functionality could fail under certain circumstances.
+- Fixed: Issue with text color of Ribbon comboboxes.
+- Fixed: Issue with Editbox padding with floating label.
+- Improved: Hover and active colors of Date Picker are now also derived from theme.
+- Improved: Empty "honeypot" anti-spam field is no longer included in form data.
+- Improved: Clone page also verifies uniqueness of page name when extensions are enabled in Site Manager.
+
+12/22/2023 - Version 19.0.4
+- Improved: Slideshow border radius when used in layout grid.
+- Improved: Blog / Article font selection. 
+- Fixed: Issue with Textarea class with floating label.
+
+01/05/2024 - Version 19.0.5
+- Fixed: Crash with RTF parser (empty format state).
+- Fixed: Issue with time range in Timer.
+- Improved: Added extra validation for exif_read_data in Photo Gallery and Slideshow values.
+- Improved: Implemented workaround for 'An existing connection was forcibly closed by the remote host' errors during publishing.
+- Improved: Added support for Ctrl+A command (Select All) in FTP Manager.
+
+01/26/2024 - Version 19.0.6
+- Fixed: The layout grid does not save updated values when selecting a grid column in the editor.
+- Improved: Added 'Change case' support for Badges.
+- Improved: Selection of objects with negative margin.
+- Improved: Media Player now uses 'cover' to fill the entire element when it has a border radius.
+
+02/16/2024 - Version 19.1.0
+- New feature: Added the ability to set the number of generated images in AI dialogs. This may be useful if you do not have a paid OpenAI account and only can generate 1 image at a time. 
+- New feature: Added a shortcut to AI folder to access previously generated AI content.
+- New feature: Added predefined prompts to AI Vision.
+- New feature: Added 25 new categories to the Website Wizard: Automotive, Church, Consultant, DIY and Crafts, Education, Environmental Sustainability, Finance, Fitness, Food and Recipes, Gaming, Home and Lifestyle, Hotel, Interior Design, Job and Career Services, Legal Services, Musician, Pets and Animals, Podcaster, Producer, Real Estate, Science and Research, Sports, Software Application, Weddings, Writer
+- New feature: AI dialogs remember the last entered prompt. 
+- New feature: Added word count to AI Text dialog, to display how many words were generated by AI.
+- New feature: Added support for export to 'Quick 'n Easy Web Builder 11' projects.
+- New feature: Add support for links in Badge object.
+- New feature: Added options to show padding and margin tabs in properties. This makes it possible to update padding/margin in the standard properties in addition to the context menu, property inspector and arrange menu.
+- New feature: Added 'center' alignment to Dropdown Menu. This aligns the menu items in the center of menu's container.
+- New feature: Added 'Border Width' property to Dropdown Menu.
+- New feature: Cards: It is now possible to modify links of individual Card items via the Link button on the toolbar (and menu). So, you no longer have to open card properties.
+- New feature: Added the possibility to modify links of image hotspots via the Link button on the toolbar (and menu). 
+- Improved: Added Animation/Transtions tab to Themable button properties.
+- Improved: Added 'copy style' and 'paste style' to the Object Manager context menu.
+- Improved: Upgraded PHP Mailer to version 6.9.1. More details: https://github.com/PHPMailer/PHPMailer/blob/master/changelog.md
+- Improved: Upgraded the FTP engine (for publishing) to v9.5.0.97 with the latest security fixes and compatibility improvements. 
+- Improved: The Responsive Menu and Dropdown Menu no longer use <b> tags for the arrow icon to improve WCAG compliance.
+- Improved: When using SunEditor in the CMS, it now automatically saves the data from the editor.
+- Improved: Removed extra 'tabs' code from Editable Content Admin.
+- Improved: The "Checkbox unchecked workaround" of the Form Processor script now works also in nested Layout Grids (and other containers).
+- Improved: Optimized alpha color values output for custom borders.
+- Fixed: 'Visible items' property of the Pagination menu resets value.
+
+02/18/2024 - Version 19.1.1
+- Fixed: Fixed issue with Badges serializing.
+- Fixed: Invalid version ID in serializing (1882). 
